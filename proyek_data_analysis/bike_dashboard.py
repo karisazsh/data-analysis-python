@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from babel.numbers import format_currency
-sns.set(style='dark')
+sns.set(style='white')
 
 
 def create_bymonth_df(df):
@@ -57,7 +57,7 @@ max_date = all_df["dteday"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("https://drive.google.com/file/d/1s_DqpZnNPqRFGDz0NV0hlAnZVM1UuSz4/view?usp=sharing")
+    st.image("https://github.com/karisazsh/data-analysis-python/blob/master/proyek_data_analysis/logo.jpg?raw=true")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
