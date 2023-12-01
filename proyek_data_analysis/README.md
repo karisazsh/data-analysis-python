@@ -12,5 +12,6 @@ streamlit run bike_dashboard.py
 ```
 ## App Deployment
 Link App: https://karisas-bike.streamlit.app/
+
 ![Alt text](image.png)
 ![Alt text](image-1.png)
